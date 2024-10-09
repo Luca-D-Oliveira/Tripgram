@@ -1,0 +1,46 @@
+header {
+    padding-block: 64px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+#profile > div {
+    max-width: 384px;
+}
+
+#profile h1 {
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 44px;
+}
+
+#profile p {
+    font-size: 18px;
+}
+
+#info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    width: 280px;
+}
+
+#info li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
